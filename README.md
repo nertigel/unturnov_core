@@ -8,7 +8,8 @@
 * /heal - heal yourself/diff player
 
 ## events:
-* UnturnedPlayerConnectedEvent: modify container size, take care of item loss/removal and drop a dogtag on player's death location.
+* UnturnedPlayerDeathEvent: take care of item loss/removal and drop a dogtag(STG) on player's death location.
+* UnturnedPlayerConnectedEvent: modify container size.
 
 ## container sizes permissions:
 * Nertigel.EfUCore:leftbehind = 4x3
