@@ -7,5 +7,8 @@
 * /reply - reply to previous message (A: [/r])
 * /heal - heal yourself/diff player
 
+## events:
+
 
 ## perm [Nertigel.EfUCore:*]
+* UnturnedPlayerConnectedEvent: modify container size, take care of item loss/removal and drop a dogtag on player's death location.
